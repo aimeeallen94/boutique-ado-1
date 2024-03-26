@@ -25,7 +25,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-aimeeallen9-boutiqueado-p69m0bys6j8.ws-eu110.gitpod.io']
+ALLOWED_HOSTS = ['8000-aimeeallen9-boutiqueado-p69m0bys6j8.ws-eu110.gitpod.io', '8000-aimeeallen9-boutiqueado-0345ykq008m.ws-eu110.gitpod.io']
 
 
 # Application definition
@@ -174,3 +174,5 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
